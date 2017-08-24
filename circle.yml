@@ -4,6 +4,7 @@ machine:
         OTB_VERSION: v2.10
         OTB_PATH: $CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/${CIRCLE_BRANCH:-$CIRCLE_TAG}
         OTB_FEED: $HOME/$CIRCLE_PROJECT_REPONAME
+        OTB_TARGET: rpi3
 
 dependencies:
     override:
